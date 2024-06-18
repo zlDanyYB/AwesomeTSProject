@@ -4,20 +4,25 @@ import { CounterM3Screen } from './src/presentation/screens/CounterM3Screen';
 import IonIcon from 'react-native-vector-icons/Ionicons'
 import { NavigationContainer } from '@react-navigation/native';
 import MainScreen from './src/presentation/components/MainScreen';
+import AppNavigator from './src/presentation/screens/AppNavigator';
 
 export const App =()=>{
   return (
-  <NavigationContainer>
-   <PaperProvider
+    <NavigationContainer>
+    
+    {/*<PaperProvider
     settings={{
       icon: (props)=> <IonIcon {...props} />
     }}
    >
     <SafeAreaView style={{flex:1}} >    
-      {/*<CounterM3Screen/>*/}
+      <CounterM3Screen/>
     </SafeAreaView>
-   </PaperProvider>
-   <MainScreen></MainScreen>
+   </PaperProvider>*/}
+   {/*<MainScreen></MainScreen>*/}
+   
+   <AppNavigator></AppNavigator>
+
   </NavigationContainer>
   )
 }

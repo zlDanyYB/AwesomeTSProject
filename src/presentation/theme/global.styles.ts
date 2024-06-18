@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 
 export const globalStyles = StyleSheet.create({
     
-    centerContariner: {
+    centerContainer: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
@@ -12,6 +12,7 @@ export const globalStyles = StyleSheet.create({
     title:{
         fontSize: 80,
         fontWeight: '300',
+        marginBottom: 20,
         color: '#daa520'
     },
     fab:{
